@@ -23,6 +23,15 @@ const exampleVidList = [
     presenter_url: "src/assets/png/presenter-2.png",
     href: "module.html"
   },
+  {
+    title: "Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran",
+    variant: "video",
+    color: "yellow",
+    contentType: "Video",
+    duration: "2:30 min",
+    presenter_url: "src/assets/png/presenter-3.png",
+    href: "module.html"
+  },
 ];
 const exampleModList = [
   {
@@ -39,6 +48,14 @@ const exampleModList = [
     color: "yellow",
     presenter: "Raditya Dika",
     presenter_url: "src/assets/png/presenter-1.png",
+    href: "module.html"
+  },
+  {
+    title: "Kiat-kiat Menjadi Penulis Kreatif ala Raditya Dika",
+    variant: "module",
+    color: "red",
+    presenter: "Raditya Dika",
+    presenter_url: "src/assets/png/presenter-3.png",
     href: "module.html"
   },
 ];
@@ -61,12 +78,21 @@ const exampleModNewList = [
     newContent: true,
     href: "module.html"
   },
+  {
+    title: "Kiat-kiat Menjadi Penulis Kreatif ala Raditya Dika",
+    variant: "module",
+    color: "red",
+    presenter: "Raditya Dika",
+    presenter_url: "src/assets/png/presenter-3.png",
+    newContent: true,
+    href: "module.html"
+  },
 ];
 </script>
 
 <template>
   <header>
-    <RewardBar :point="9999" :streak="99" :key="99"></RewardBar>
+    <RewardBar :point="9999" :streak="99" :key_point="99"></RewardBar>
     <h1>Hai Kuncoro!</h1>
     <br />
     <input
