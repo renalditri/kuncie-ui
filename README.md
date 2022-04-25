@@ -19,14 +19,14 @@
 - disabled (opsional) : Boolean
 - href : String
 
-![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-3.png?token=GHSAT0AAAAAABRZJKXROFWGN2AZ5CAMPSV2YTGXN4A)
-![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-2.png?token=GHSAT0AAAAAABRZJKXQGONUBKUNOGRQQ7T2YTGXNNA)
-![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-1.jpg?token=GHSAT0AAAAAABRZJKXQURYEFVJ22SIT3B3KYTGXMKA)
+![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-3.png)
+![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-2.png)
+![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-1.jpg)
 ## Contoh Penggunaan
 
 ### - Card video berwarna biru
 
-![Contoh Card Video Biru](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/video-blue.png?token=GHSAT0AAAAAABRZJKXRMQM2LVM4FJU4MN76YTGXWFA)
+![Contoh Card Video Biru](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/video-blue.png)
 ```
 <Card
   title="Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran"
@@ -40,7 +40,7 @@
 
 ```
 ### - Card module berwarna merah
-![Contoh Card Module Merah](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/module-red.jpg?token=GHSAT0AAAAAABRZJKXR3LPLLXSPJXWGM35AYTGXY2A)
+![Contoh Card Module Merah](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/module-red.jpg)
 
 ```
 <Card
@@ -53,7 +53,7 @@
 />
 ```
 ### - Card module berwarna merah dengan tag baru
-![Contoh Card Module Baru Kuning](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/new-yellow.jpg?token=GHSAT0AAAAAABRZJKXRGKRR3VPNV7RFBPMUYTGXY4A)
+![Contoh Card Module Baru Kuning](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/new-yellow.jpg)
 ```
 <Card
   title="Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran"
@@ -108,7 +108,7 @@ const exampleVidList = [
 
 # 3. ButtonGroup
 ## Contoh Penggunaan
-![Contoh Button Group](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/button-group.png?token=GHSAT0AAAAAABRZJKXQXUUVATCFDA3QJXC6YTGYDOQ)
+![Contoh Button Group](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/button-group.png)
 ```
 <template>
   <ButtonGroup>
@@ -122,7 +122,7 @@ const exampleVidList = [
 ## Props
 - page : String
 ## Contoh Penggunaan
-![Contoh Navbar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/navbar.png?token=GHSAT0AAAAAABRZJKXQPAA3UZRILSSQZA7SYTGYFCA)
+![Contoh Navbar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/navbar.png)
 ```
 <template>
   <main>
@@ -141,7 +141,7 @@ const exampleVidList = [
 - light : Boolean
 ## Contoh Penggunaan
 ### 1. RewardBar normal
-![Contoh RewardBar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/reward-bar.png?token=GHSAT0AAAAAABRZJKXRKPNJMDLXUB7O3J72YTGYIQA)
+![Contoh RewardBar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/reward-bar.png)
 ```
 <template>
   <header>
@@ -150,7 +150,7 @@ const exampleVidList = [
 </template>
 ```
 ### 2. RewardBar normal
-![Contoh RewardBar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/reward-bar-light.png?token=GHSAT0AAAAAABRZJKXR7SL4PD3UJFKPNQV2YTGYH2A)
+![Contoh RewardBar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/reward-bar-light.png)
 ```
 <template>
   <header>
