@@ -19,14 +19,14 @@
 - disabled (opsional) : Boolean
 - href : String
 
-![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-3.png)
-![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-2.png)
-![asd](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/explanation-1.jpg)
+![Card Explanation 3](https://cdn.discordapp.com/attachments/390287367128481792/968422375718789130/Group_6.png)
+![Card Explanation 2](https://cdn.discordapp.com/attachments/390287367128481792/968422375949484122/Group_5.png)
+![Card Explanation 1](https://cdn.discordapp.com/attachments/390287367128481792/968421490691276800/explanation-1.jpg)
 ## Contoh Penggunaan
 
 ### - Card video berwarna biru
 
-![Contoh Card Video Biru](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/video-blue.png)
+![Contoh Card Video Biru](https://cdn.discordapp.com/attachments/390287367128481792/968421510089936946/video-blue.png)
 ```
 <Card
   title="Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran"
@@ -40,32 +40,44 @@
 
 ```
 ### - Card module berwarna merah
-![Contoh Card Module Merah](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/module-red.jpg)
+![Contoh Card Module Merah](https://cdn.discordapp.com/attachments/390287367128481792/968421510895263764/module-red.jpg)
 
 ```
 <Card
-  title="Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran"
+  title="Kiat-kiat Menjadi Penulis Kreatif ala Raditya Dika"
   variant="module"
-  color="blue"
-  presenter="Putri Tanjung"
-  presenter_url="src/assets/png/presenter-1.png"
+  color="red"
+  presenter="Raditya Dika"
+  presenter_url="src/assets/png/presenter-3.png"
   href="/module.html"
 />
 ```
 ### - Card module berwarna merah dengan tag baru
-![Contoh Card Module Baru Kuning](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/new-yellow.jpg)
+![Contoh Card Module Baru Kuning](https://cdn.discordapp.com/attachments/390287367128481792/968421511465697290/new-yellow.jpg)
 ```
 <Card
-  title="Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran"
+  title="Kiat-kiat Menjadi Penulis Kreatif ala Raditya Dika"
   variant="module"
-  color="blue"
-  presenter="Putri Tanjung"
+  color="yellow"
+  presenter="Raditya Dika"
   presenter_url="src/assets/png/presenter-1.png"
   href="/module.html"
   :newContent="true"
 />
 ```
-
+### - Card Video dengan prop disabled
+![Contoh Card Disabled](https://cdn.discordapp.com/attachments/390287367128481792/968421510605860884/disabled.png)
+```
+<Card
+  title="Menulis Kreatif dan Terstruktur agar Produk Laris di Pasaran"
+  variant="video"
+  duration="2:30 min"
+  contentType="Video"
+  presenter_url="src/assets/png/presenter-1.png"
+  href="/module.html"
+  disabled
+/>
+```
 # 2. CardWrapper
 
 ## Props
@@ -108,7 +120,7 @@ const exampleVidList = [
 
 # 3. ButtonGroup
 ## Contoh Penggunaan
-![Contoh Button Group](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/button-group.png)
+![Contoh Button Group](https://cdn.discordapp.com/attachments/390287367128481792/968421510333222972/button-group.png)
 ```
 <template>
   <ButtonGroup>
@@ -122,7 +134,7 @@ const exampleVidList = [
 ## Props
 - page : String
 ## Contoh Penggunaan
-![Contoh Navbar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/navbar.png)
+![Contoh Navbar](https://cdn.discordapp.com/attachments/390287367128481792/968421511226609725/navbar.png)
 ```
 <template>
   <main>
@@ -141,7 +153,7 @@ const exampleVidList = [
 - light : Boolean
 ## Contoh Penggunaan
 ### 1. RewardBar normal
-![Contoh RewardBar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/reward-bar.png)
+![Contoh RewardBar](https://cdn.discordapp.com/attachments/390287367128481792/968421511675396116/reward-bar.png)
 ```
 <template>
   <header>
@@ -149,8 +161,8 @@ const exampleVidList = [
   </header>
 </template>
 ```
-### 2. RewardBar normal
-![Contoh RewardBar](https://raw.githubusercontent.com/renalditri/kuncie-ui/main/tutorial/reward-bar-light.png)
+### 2. RewardBar light
+![Contoh RewardBar Light](https://cdn.discordapp.com/attachments/390287367128481792/968421509846675476/reward-bar-light.png)
 ```
 <template>
   <header>
